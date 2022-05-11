@@ -1,1 +1,23 @@
-/* You can add global styles to this file, and also import other style files */
+body {
+    width: 100%;
+    margin: 0;
+    background: linear-gradient(-45deg, #eb9f88, #de87a9, #9dd4e8, #92ebd6);
+	background-size: 400% 400%;
+	animation: gradient 20s ease infinite;
+}
+html {
+    width: 100%;
+    scroll-behavior: smooth;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
