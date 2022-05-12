@@ -1,0 +1,19 @@
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+    margin: 10px 0 ;
+}
+#eng {
+    font-family: 'Shadows Into Light', 'M PLUS Rounded 1c', cursive;
+    font-weight:300;
+    font-style:normal;
+    font-size: 2em;
+}
+#heb {
+    font-family: 'M PLUS Rounded 1c', cursive;
+    font-weight:300;
+    font-style:normal;
+    font-size: 2em;
+}
