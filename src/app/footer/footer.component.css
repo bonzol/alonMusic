@@ -3,6 +3,8 @@
     justify-content: center;
     align-items: center;
     height: 10vh;
-    background-color: aliceblue;
-    border: 1px solid;
+    font-family: 'Shadows Into Light', 'M PLUS Rounded 1c', cursive;
+    font-weight:300;
+    font-style:normal;
+    font-size: 1.5em;
 }
