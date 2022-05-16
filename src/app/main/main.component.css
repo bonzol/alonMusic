@@ -65,6 +65,7 @@ a {
 }
 .album-img > img {
     width: 350px;
+    border-radius: 10px;
 
 }
 .album-img {
@@ -113,5 +114,13 @@ a {
     }
     .album-name {
         margin-bottom: 0;
+    }
+    .album-det-start {
+        position: absolute;
+        top: 0;
+    }
+    .album-songs {
+        position: absolute;
+        bottom: 0;
     }
 }   
