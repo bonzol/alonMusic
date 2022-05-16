@@ -94,7 +94,9 @@ a {
 .album-name {
     margin-bottom: 40px;
 }
-
+.fade-in {
+    background-color: black;
+}
 @media (max-width:620px) {
     iframe, #carousel-videos {
         width: 100vw;

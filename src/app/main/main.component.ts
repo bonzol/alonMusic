@@ -11,5 +11,11 @@ export class MainComponent implements OnInit {
 
   ngOnInit(): void {
   }
-  
+  // nextSlide() {
+  //   setTimeout(function(){
+  //     document.querySelectorAll(".active")[1]?.classList.add("fade-in");
+
+  //   }, 700)
+    
+  // }
 }
