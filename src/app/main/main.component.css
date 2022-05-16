@@ -11,13 +11,9 @@ p {
     margin-bottom: 40px;
 }
 
-/* iframe {
+.carousel {
     border-radius: 10px;
-    box-shadow: 0px -1px 23px 3px rgba(0,0,0,0.76);
-    -webkit-box-shadow: 0px -1px 23px 3px rgba(0,0,0,0.76);
-    -moz-box-shadow: 0px -1px 23px 3px rgba(0,0,0,0.76);
-    
-} */
+}
 
 .videos {
     margin-bottom: 60px;
