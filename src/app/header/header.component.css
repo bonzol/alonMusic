@@ -2,8 +2,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 10vh;
-    margin: 10px 0 ;
+    margin-top: 10px;
+    margin-bottom: -10px;
 }
 #eng {
     font-family: 'Shadows Into Light', 'M PLUS Rounded 1c', cursive;
@@ -12,8 +12,7 @@
     font-size: 2em;
 }
 #heb {
-    font-family: 'M PLUS Rounded 1c', cursive;
-    font-weight:300;
-    font-style:normal;
+    font-family: 'Assistant', sans-serif;
+    font-weight:700;
     font-size: 2em;
 }
