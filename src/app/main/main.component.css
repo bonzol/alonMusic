@@ -3,17 +3,14 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    overflow: hidden;
 }
 p {
     font-family: 'Assistant', sans-serif;
     font-weight: 200;
     font-size: 1.5em;
-    margin-bottom: 40px;
 }
 
-.carousel {
-    border-radius: 10px;
-}
 
 .videos {
     margin-bottom: 60px;
@@ -21,7 +18,7 @@ p {
 
 .link {
     width: 65vw;
-    max-width: 700px;
+    max-width: 600px;
     margin-bottom: 25px;
 }
 .link-div {
@@ -30,10 +27,9 @@ p {
     font-size: larger;
     
 }
-
-.carousel {
+#carousel-videos {
     width: 560px;
-    
+    border-radius: 10px;
 }
 a:hover {
     background-color: rgba(255, 242, 226, 0.783);
@@ -49,7 +45,7 @@ a {
     text-decoration: none;
     color: black;
 }
-img {
+.link-img {
     min-width: 65px;
     width: 12%;
     height: auto;
@@ -58,20 +54,62 @@ img {
     box-shadow: 5px 2px 26px 0px rgba(0,0,0,0.75);
     -webkit-box-shadow: 5px 2px 26px 0px rgba(0,0,0,0.75);
     -moz-box-shadow: 5px 2px 26px 0px rgba(0,0,0,0.75);
+}
+.albums {
+    width: 94vw;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.album {
+    display: flex;
+}
+.album-img > img {
+    width: 350px;
 
-
+}
+.album-img {
+    width: 55vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.album-det {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.album-date {
+    font-size: 1em;
+    font-weight: 600;
+    padding: 0;
+    margin: 0;
+}
+.album-song {
+    font-size: 0.8em;
+    font-weight: 600;
+    padding: 0;
+    margin: 0;
+}
+.album-name {
+    margin-bottom: 40px;
 }
 
 @media (max-width:620px) {
-    iframe, .carousel {
+    iframe, #carousel-videos {
         width: 100vw;
         border-radius: 0;
-        box-shadow: none;
     }
     .link {
-        width: 90vw;
+        width: 86vw;
     }
     .videos {
         margin-top: 20px;
+    }
+    .album-det {
+        margin-left: 20px;
+    }
+    .album-name {
+        margin-bottom: 0;
     }
 }   
