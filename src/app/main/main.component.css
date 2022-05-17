@@ -73,13 +73,13 @@ p {
     border-radius: 10px;
 }
 .album-date{
-    animation: slide 1s linear  ;
+    animation: slide 1s ease 0.01s;
 }
 .album-name{
-    animation: slide 1.05s linear  ;
+    animation: slide 1.05s ease 0.01s;
 }
 .album-songs {
-    animation: size-in 1.1s linear  ;
+    animation: size-in 1.1s ease 0.01s;
 }
 @keyframes slide {
     0%   {transform: translateX(500px);}
